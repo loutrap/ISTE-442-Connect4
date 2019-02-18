@@ -1,0 +1,221 @@
+html, body { 
+    height: 100%; 
+    width: 100%; 
+    margin: 0; 
+}
+
+body {
+    /* background: #ED254E; */
+    background: #fff;
+    color: #000;
+}
+
+#register-form, #login-form {
+    /* background: #F9D636; */
+    background: #FFDD49;
+    padding: 25px;
+}
+
+.nav-title {
+    color: #fff;
+}
+
+nav {
+    background: #011936 !important;
+    width: 100%;
+}
+
+/* login/register */
+#form-wrapper {
+    width: 50%;
+    padding: 20px;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 400px;
+}
+
+#login-form {
+    border-radius: 5px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .2rem 1rem rgba(0,0,0,.175) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+#register-btn-form {
+    margin-top: 55px;
+}
+
+/* index */
+#public-chat {
+    height: 80%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* index */
+#private-chat {
+    height: 80%;
+    padding: 0;
+    margin-top: 50px;
+
+}
+
+#main-wrapper {
+    height: 100%;
+    padding-left: 30px;
+}
+
+#game-wrapper {
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+
+#chat-window {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+
+}
+
+#private-chat-window {
+    overflow: scroll;
+    height: 100%;
+}
+
+#chat-header {
+    width: 100%;
+}
+
+#chat-form {
+    width: 100%;
+    display: flex;
+}
+
+#chat-form input {
+    width: 100%;
+}
+
+.chat-msg-div {
+    display: flex;
+    margin: 3px 0;
+}
+
+.chat-msg-bubble {
+    display: flex;
+    background: lightgrey;
+    color:black;
+    border-radius: 5px;
+}
+
+.private-chat-msg-bubble {
+    margin: 3px 0;
+    background: lightgrey;
+    color:black;
+    border-radius: 5px;
+}
+
+.username-col {
+    min-width: 100px;
+}
+
+#private-chat-form {
+    width: 100%;
+    display: flex;
+}
+
+#private-chat-form input {
+    width: 100%;
+}
+
+#online-user-list {
+    height: 800px;
+
+}
+
+#player-list-row {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#stacked-lists {
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+#users-list{
+    overflow: scroll;
+    padding: 0;
+    height: calc(35% - 10px);
+    margin-bottom: 10px;
+}
+
+#challenge-list {
+    padding: 0;
+    overflow: scroll;
+    min-height: 100px;
+    height: calc(20% - 10px);
+    margin-bottom: 10px;
+
+}
+
+.challenge-btn {
+    line-height: 1 !important;
+    font-size: 0.8rem !important;
+}
+
+.accept-btn {
+    line-height: 1 !important;
+    font-size: 0.8rem !important;
+}
+
+.reject-btn {
+    line-height: 1 !important;
+    font-size: 0.8rem !important;
+}
+
+.game-btn {
+    line-height: 1 !important;
+    font-size: 0.8rem !important;
+}
+
+#active-games-list {
+    padding: 0;
+    overflow: scroll;
+    min-height: 100px;
+    height: calc(40% - 10px);
+}
+
+#game-list-row {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* rect .cell-rect {
+    background: yellow;
+    border: 2px solid blue;
+} */
+
+#winner-text{
+    font-size: 24pt
+
+}
+
